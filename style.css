@@ -1,0 +1,208 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-image: url('img/IMG_0383.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+
+/* Services section */
+.services{
+    padding: 20px 10%;
+    text-align: center;
+    background-color: rgb(240, 179, 179);
+    margin-bottom: auto;
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+
+/* Rooms Section */
+.rooms {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.rooms h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.room-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.room-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.room-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.room-item h3 {
+    margin-top: 15px;
+}
+
+.room-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+/* Booking Form */
+.booking {
+    background-color: #f4f4f4;
+    padding: 50px 10%;
+}
+
+.booking h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .room-list {
+        flex-direction: column;
+    }
+
+    .room-item {
+        width: 100%;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p {
+        font-size: 1.2em;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+}
+
+/*container*/
+{
+    heignt: 100px;
+    disply: flex;
+    align-item: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    color: rgb(88, 86, 84);
+    margin-bottom: 60px;
+}
+
+iframe{
+    width: 80%
+    padding:center;
+    height: 500px;
+    justify-direction: center;
+    
+
+}
